@@ -23,7 +23,7 @@ header {
 }
 
 .imagenh {
-    width: 300px;
+    width: 100px;
     height: auto;
 }
 
@@ -72,7 +72,7 @@ header {
     justify-content: space-around;
     margin: 20px auto 40px auto;
     background: whitesmoke;
-    border-radius: 4px;
+    border-radius: 20px;
     padding: 40px 0;
     -webkit-box-shadow: 3px 17px 21px -6px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 3px 17px 21px -6px rgba(0, 0, 0, 0.75);
@@ -81,6 +81,7 @@ header {
 
 .formulario img {
     width: 300px;
+    border-radius: 15px;
 }
 
 form {
@@ -145,5 +146,5 @@ footer{
     background: var(--colorBase);
     color: white;
     text-align: center;
-    padding: 100px 0;
+    padding: 60px 0;
 }
