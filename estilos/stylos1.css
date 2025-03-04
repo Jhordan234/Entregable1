@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #d4f7c5;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a8e6a3;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #333;
+}
+
+.register {
+    background: black; 
+}
+
+.register {
+    background: rgb(7, 7, 7);
+}
+
+.banner {
+    width: 100%;
+    overflow: hidden; 
+}
+
+.banner img {
+    width: 100%;
+    height: auto; 
+    display: block;
+}
+
+.productos {
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.card.free {
+    border-color: green;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #a8e6a3;
+    padding: 10px;
+}
+
+.social img {
+    height: 30px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li i {
+    font-size: 18px;
+}
