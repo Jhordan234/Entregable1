@@ -1,0 +1,61 @@
+body {
+    background-color: #D8F5D3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #C1E1C1;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    padding: 8px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+#resultados, #recomendaciones {
+    padding: 20px;
+}
+
+#juegos-similares {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.juego {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.juego img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
